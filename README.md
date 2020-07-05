@@ -10,7 +10,7 @@ This package is also included in the Evaluation Service EvALL, along with extend
 
 This source is available to evaluate a pair of goldstandard/output, and generates as output an EvALL tsv report. The input format for both files is described in the OrdinalClassificationFormat class.
 
-# Execution jar library
+# Executable jar file
 
 The package must be invoked with 2 parameter: pathGoldStandard pathSystemOutput
 
