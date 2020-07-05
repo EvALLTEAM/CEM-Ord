@@ -15,7 +15,7 @@ The package must be invoked with 2 parameter: pathGoldStandard pathSystemOutput
      Example: java -jar CEM-Ord_EvALL-0.1.0.jar test/resources/GOLD.tsv test/resources/SYS.tsv 
 
 		
-# ORDINAL CLASSIFICATION FORMAT
+# ORDINAL CLASSIFICATION FORMAT 
 
 The Ordinal Classification task uses as input a 3 column tsv format without headers, where the first column represents the TEST CASE, the second column represents the ID of the item and the third column represents the ORDINAL VALUE assigned to the item. Notice that the ORDINAL VALUES should be represented as a numeric value. Your can find an example in the test/resources folder.
 
