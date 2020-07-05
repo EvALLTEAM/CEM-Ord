@@ -10,11 +10,14 @@ This package is also included in the Evaluation Service EvALL, along with extend
 
 This source is available to evaluate a pair of goldstandard/output, and generates as output an EvALL tsv report. The input format for both files is described in the OrdinalClassificationFormat class.
 
+# Execution jar library
+
 The package must be invoked with 2 parameter: pathGoldStandard pathSystemOutput
 
      Example: java -jar CEM-Ord_EvALL-0.1.0.jar test/resources/GOLD.tsv test/resources/SYS.tsv 
 
-		
+The executable file can be found in build/libs. Javadocs can also be found in build folder.		
+
 # ORDINAL CLASSIFICATION FORMAT
 
 The Ordinal Classification task uses as input a 3 column tsv format without headers, where the first column represents the TEST CASE, the second column represents the ID of the item and the third column represents the ORDINAL VALUE assigned to the item. Notice that the ORDINAL VALUES should be represented as a numeric value. Your can find an example in the test/resources folder.
