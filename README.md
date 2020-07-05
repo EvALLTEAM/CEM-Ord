@@ -18,7 +18,7 @@ The package must be invoked with 2 parameter: pathGoldStandard pathSystemOutput
 
 The executable file can be found in build/libs. Javadocs can also be found in build folder.		
 
-# ORDINAL CLASSIFICATION FORMAT
+# ORDINAL CLASSIFICATION FORMAT 
 
 The Ordinal Classification task uses as input a 3 column tsv format without headers, where the first column represents the TEST CASE, the second column represents the ID of the item and the third column represents the ORDINAL VALUE assigned to the item. Notice that the ORDINAL VALUES should be represented as a numeric value. Your can find an example in the test/resources folder.
 
